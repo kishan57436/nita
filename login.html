@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url("back.png");
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: right;
+      align-items: right;
+      height: 70vh;
+      font-size: 15px;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 380px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      font-size: 25px;
+    }
+
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      font-size: 20px;
+      
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size:18px ;
+    }
+    
+    
+  </style>
+</head>
+<body>
+   
+
+    
+  <form>
+    <h2>login</h2>
+    
+    <label for="username">Username:</label>
+    <input type="text" id="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+
+    <label for="userType">Select user type:</label>
+    <select id="userType" required>
+      <option value="renter">Renter</option>
+      <option value="landlord">Landlord</option>
+    </select>
+
+    <button type="submit" >signup</button>
+    <p>create an account <a href="create.html"> click here</a></p>
+    <a href="k1.html">Home</a>
+    
+  </form>
+  
+</body>
+</html>
